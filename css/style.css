@@ -1,0 +1,96 @@
+img {
+	border-style: none;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.loading-area {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	overflow: hidden;
+}
+
+.loading-box {
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 1;
+	z-index: 9999;
+}
+
+.loading-pic {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	z-index: 99999;
+	text-align: center;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.nav-wide .container {
+	width: 100%;
+}
+
+.nav-wide .container {
+	padding: 0px 80px;
+}
+
+.logo-header {
+	display: table;
+	float: left;
+	width: 140px;
+	height: 70px;
+	vertical-align: middle;
+	padding: 0;
+	font-size: 36px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+	z-index: 9;
+}
+
+.header-nav .nav {
+	float: right;
+}
+
+.footer-large .footer-bottom {
+	padding: 20px 0px;
+	color: #787878;
+	font-size: 13px;
+}
+
+.footer-fixed .site-footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	border: none;
+}
+
+.contact-one {
+	border: 6px solid #000;
+	position: relative;
+}
+
+.footer-bottom {
+	background-color: pink;
+	border-top: 1px solid;
+}
+
+.sticky-header {
+	background-color: pink;
+	border-bottom: 1px solid;
+}
+

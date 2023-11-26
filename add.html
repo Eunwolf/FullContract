@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/Logo.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer-.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Add property</title>
+    <link rel="stylesheet" type="text/css" href="css/loader.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<body class="footer-fixed">
+    <div class="page-wraper">
+        <nav class="navbar navbar-expand-md fixed-top bg-info-subtle navbar-light" style="padding-bottom: 0px;padding-top: 5px;" id="bmt">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light" style="padding-top: 0px;padding-bottom: 11px;padding-right: 0px;margin-right: -53px;">
+                    <div class="container-fluid">
+                        <div><a class="navbar-brand" id="brand-logo" href="#"> </a><button data-bs-toggle="collapse" data-bs-target="#navcol-1" class="navbar-toggler"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
+                        <div class="collapse navbar-collapse" id="navcol-2">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item"></li>
+                                <li class="nav-item"></li>
+                                <li class="nav-item"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav><a class="navbar-brand text-uppercase fw-bolder link-info text-bg-warning" href="#" style="padding-bottom: 0px;padding-top: 2px;"><img id="logo" src="assets/img/clipboard-image-1.png" width="60" height="42" style="padding-bottom: 0px;">Perfect property company</a><button class="navbar-toggler" data-bs-toggle="collapse"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Bất động sản</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Hợp đồng</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Dự án</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Tin tức</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Thêm bất động sản</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="add.html">Thêm hợp đồng</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <section class="py-5 text-center container"></section>
+        </header>
+        <div class="page-content">
+            <div class="section-full p-tb80">
+                <div class="container">
+                    <div class="section-head text-left text-black">
+                        <h2 class="text-uppercase font-36">Danh Sách:</h2>
+                    </div>
+                    <div class="section-content">
+                        <div class="wt-box">
+                            <div class="contact-one p-a40 ">
+
+                                <div id="list-page" style="padding: 20px;">
+                                    <table id="contract-table" border="1"></table>
+                                    <button id="add" onclick="showAddPage()" style="margin-top: 20px;">Thêm hợp đồng</button>
+                                </div>
+                                
+                                <div style="padding: 40px;" id="add-page" style="display: flex; flex-direction: column;">
+                                    <flex>
+                                        <p style="margin-bottom: 5px">Tên hợp đồng: </p>
+                                        <input style="margin-bottom: 5px" id="ten" type="text">
+                                        <p style="margin-bottom: 5px">Ngày ký: </p>
+                                        <input style="margin-bottom: 5px" id="ngayKy" type="date">
+                                        <p style="margin-bottom: 5px">Ngày hết hạn: </p>
+                                        <input style="margin-bottom: 5px" id="ngayHetHan" type="date">
+                                    </flex>
+                                    <p style="margin-bottom: 5px">Nội dung: </p>
+                                    <textarea style="height:250px; width:100%; margin-bottom: 5px" id="noiDung" rows="3" cols="5"></textarea>
+                                    <flex>
+                                        <button onclick="showListPage()">Hủy</button>
+                                        <button onclick="addContract()">Lưu</button>
+                                    </flex>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- CONTENT END -->
+
+        <footer>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 footer-navigation">
+                    <img src="u1.png">
+                    <h3><a href="#">Công ty bất động sản PPC<span></span></a></h3>
+                    <p class="company-name">PPC © 2023</p>
+                    <span class="copyrights-text">Designed By Blossom.</span>
+                </div>
+                <div class="col-sm-6 col-md-4 footer-contacts">
+                    <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                        <p><span class="new-line-span">21 Revolution Street</span> Paris, France</p>
+                    </div>
+                    <div><i class="fa fa-phone footer-contacts-icon"></i>
+                        <p class="footer-center-info email text-start"> +1 555 123456</p>
+                    </div>
+                    <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                        <p> <a href="#" target="_blank">support@company.com</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 footer-about">
+                    <h4>About the company</h4>
+                    <p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet. </p>
+                    <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="https://www.facebook.com/search/top?q=scorpio%20bakery%20cafe"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+                </div>
+            </div>
+        </footer>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+    </div>
+    <div class="loading-area">
+        <div class="loading-box"></div>
+    </div>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/stellar.min.js"></script>
+    <script src="js/scrolla.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/Note.js"></script>
+</body>
+</html>
